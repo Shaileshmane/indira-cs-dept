@@ -1,0 +1,787 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: century gothic; */
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Nunito', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+body{
+   
+   background: linear-gradient(rgba(52, 152, 219,0.8),rgba(47, 69, 74, 0.1)),url(../Images/back.jpeg);
+   background-size: cover;
+   background-attachment: fixed;
+   color: white;
+   overflow-x: hidden;
+
+ 
+}
+ .navfix{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    
+ }
+.logo{
+    size: 10px;
+    height: 70px;
+    width: 100%;
+    color: white;
+    background-color: white;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.5),0 0 50px rgba(0, 0, 0, 0.5);
+     box-shadow:0 1px 2px rgba(0, 0, 0, 0.3),0 0 5px rgba(0, 0, 0, 0.3) inset;
+
+}
+.logo img{
+    position: relative;
+    margin-left: 15px;
+    margin-top:5px;
+    height: 65px;
+    width: 65px; 
+    border-radius: 10px;
+
+}
+.logo p{
+    position: relative;
+    margin-left:90px;
+    margin-top: -70px;
+    font-size: 18px;
+    color: black;
+    
+}
+.logo .clg{
+    font-size: 12px;
+    position: relative;
+    top: 70px;
+    color: #36454F;
+}
+.cs{
+    color: rgb(232, 125, 143);
+}
+.logo h2{
+    font-size: 13px;
+    margin-left: 0px;
+    z-index: 100;
+    color: black;
+    padding-left: 32px;
+    background-color: white;
+    height: 20px;
+    width: 100%;
+}
+.navs{
+    position: relative;
+    background-attachment: fixed;
+    float: right;
+    margin-right: 35px;
+    word-spacing: 10px;
+    margin-top: -40px;
+  
+ 
+   
+}
+.navs a{
+    position: relative;
+    text-decoration: none;
+    font-size:18px;
+    transition: 0.2s ease;
+    color:#36454F;
+    padding: 5px;
+    transition: 0.1s ease;
+   
+
+}
+.navs a:hover{
+    border-bottom: 5px solid royalblue;
+    padding-bottom: 14px;
+    
+    border-radius: 2px;
+ 
+    
+} 
+
+.notice{
+    height: 20px;
+    width: 1120px;
+    float: right;
+    background-color: white;
+    color: red;
+}
+
+ .white-space{
+    position: relative;
+    bottom: 240px;
+    z-index: -1;
+    height: 35vh;
+    width: 100%;
+    background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
+
+ }
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    align-content: center;
+    /* background:#fff ; */
+    color:#36454F;
+    margin: 10%;
+    padding: 5%;
+   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+   font-family: 'Cedarville Cursive', cursive;
+   font-family: 'Nunito', sans-serif;
+}
+.main-content:hover{
+    
+}
+.heading{
+   font-size: 1.3rem;
+   color: #fff;
+}
+.heading span{
+    /* color: rgb(255, 82, 111); */
+    font-size: 3rem;
+}
+
+
+.heading h1{
+    animation: slideleft 1s linear forwards;
+}
+@keyframes slideleft{
+    0%{
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+.heading p{
+    font-size:20px;
+    font-weight: bold;
+    animation: slideleft 1s linear forwards;
+    padding: 10px 0px;
+    color: #dfd6ce;
+    
+}
+@keyframes slideleft{
+    0%{
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+} 
+
+ 
+.btn{
+    margin: 20px 15px;
+}
+.btn a{
+    color: white;
+    background-color:#5BA3ED;
+    padding: 10px 50px;
+    font-size:15px ;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ 
+.btn a:hover{
+   
+   
+
+    
+}
+.change_content {
+padding-top: 25px;
+margin-top: 25px;
+}
+
+
+.change_content:after{
+    content: ' ';
+    animation: changetext 5s infinite linear;
+    color: #f2e9e9;
+    font-size: 20px;
+    margin-top: 25px;
+}
+@keyframes changetext{
+    0%{content: " Welcome To Department of Computer science & IT ";}
+    40%{content: "we are here of develping world";}
+    70%{content: "We build a success students..";}
+    100%{content: "Scope ";}
+
+
+
+ }
+
+
+
+.note{
+    margin-top: 100px;
+    margin-left: 100px;
+    color: royalblue;
+    
+}
+.note p{
+    font-size:12px;
+
+}
+.me{
+    float: right;
+    color: royalblue;
+    margin-top: -185px;
+    margin-right: 5px;
+     
+}
+.me p{
+    
+     float: right;
+    font-size: 10px;
+}
+
+.about-card{
+    height: 120vh;
+    width: 80%;
+    background-color: white;
+    margin: 100px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.about-card h1{
+    color:black;
+    border-bottom: 1px solid lightgrey;
+    padding: 15px 25px;
+}
+.about-card p{
+    color:#36454F;
+    padding: 15px 25px;
+
+}
+
+.portfolio-card{
+    height: 80vh;
+    width: 80%;
+    background-color: white;
+    margin: 100px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     
+}
+
+.portfolio-card h2{
+    color: black;
+    padding: 15px 25px;
+    border-bottom: 1px solid lightgrey;
+     
+}
+
+.mam-data{
+    margin-top: 35px;   
+    display: flex;
+    position: relative;
+    left: 100px;
+    /* background-color: #333; */
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 2;
+    padding: 0px 15px;
+    text-align: left;
+}
+.mam-data:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.name{
+ color: black;
+ font-size: 2rem;
+ border-bottom: 2px solid royalblue;
+}
+.data{
+    margin-top: 15px;
+}
+.mam-data p{  
+   color: #36454F;
+}
+.data p img{
+    position: relative;
+    top: 5px;
+    right: 5px;
+    
+}
+.data a{
+    position: relative;
+    top: 25px;
+    text-decoration: none;
+    background-color: royalblue;
+    padding: 10px 50px;
+    border-radius: 25px;
+    color:#fff;
+}
+
+
+.mam-img{
+    position: relative;
+    bottom: 250px;
+    left: 500px;
+    
+
+}
+.img-bg{
+    height: 50vh;
+    width: 25vw;
+    border-radius: 57% 20% 46% 24% / 43% 34% 38% 16%;
+    background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
+    
+}
+.img-bg img{
+    position: relative;
+    right: 60px;
+    bottom: 20px;
+    height: 250px;
+    width: 420px;
+    border-radius: 50%;
+    filter: drop-shadow(5px 5px 10px royalblue);
+}
+
+.style-1{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    bottom: -10px;
+    left: -50px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 57% 20% 46% 24% / 43% 34% 38% 16%;
+    background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
+    
+}
+
+ .staff-card{
+    height: 70vh;
+    width: 80%;
+    background-color: #fff;
+    position: relative;
+    top: 300px;
+    left: 100px;
+    border-radius: 5px;
+    color: #36454F;
+    text-align: center;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ .staff-card h1{
+    border-bottom: 1px solid lightgray;
+ }
+
+ .staff-data{
+    background-color: whitesmoke;
+    width: 50%;
+    height: 250px;
+    margin: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 5px;
+ }
+ .staff-heading{
+    color: #36454F;
+    padding: 5px;
+    border-bottom: 1px solid wheat;
+    
+ }
+ .staff-heading h2{
+    font-size: 18px;
+ }
+ .staff-data img{
+    height: 150px;
+    width: 120px;
+    position: relative;
+    right: 150px;
+    top: 20px;
+ }
+ .staff-data-1{
+    position: relative;
+    bottom: 120px;
+    left: 180px;
+    width: 70%;
+    line-height: 1.5;
+    text-align: left;
+ }
+ .staff-name{
+    color: black;
+    font-size: 20px;
+ }
+
+ #section4{
+
+ }
+
+ .footer{
+    height: 30vh;
+    width: 100%;
+    background-color: #2B568F;
+    position: relative;
+    top: 250px;
+    margin-top: 100px;
+ }
+
+.about-us{
+    height: 25vh;
+    width: 25%;
+     position: relative;
+     left: 8%;
+     top: 25px;
+
+}
+
+.about-us h2{
+    border-bottom: 1px solid lightgray;
+}
+.about-us p{
+    margin-top: 10px;
+    color: gainsboro;
+}
+
+.contact-us{
+    height: 20vh;
+    width: 25%;
+     position: relative;
+     left: 65%;
+     top: 85px;
+     padding: 20px;
+  
+}
+.contact-us h2{
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 10px;
+}
+
+.contact-us img{
+    height: 25px;
+    width: 25px;
+}
+
+.contact-us p{
+   
+    color: gainsboro;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#img1{
+    height: 70px;
+    width: 70px;
+    margin-left: 50px;
+    margin-top: 55px;
+}
+#img2{
+    height: 70px;
+    width: 70px;
+    margin-left: 45px;
+    margin-top: 25px;
+}
+#img3{
+    height: 70px;
+    width: 70px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+#img4{
+    height: 70px;
+    width: 70px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#img6{
+    height: 70px;
+    width: 70px;
+    margin-left: 45px;
+    margin-top: 35px;
+}
+
+#section1{
+    height: 700px;
+    display: inline-block;
+    width: 100%;
+    color: white;
+
+}
+
+#section2{
+    margin-top: 50px;
+    height: 600px;
+    display: inline-block;
+    width: 100%;
+    color: white;
+
+}
+.col{
+    margin-top: 10px;
+    margin-right: 150px;
+}
+.col .card{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 50px 15px 50px;
+    align-content: center;
+    float: right;
+    transition: transform 0.5s;
+    font-size: 10px;
+}
+ 
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.5),0 0 50px rgba(0, 0, 0, 0.5);
+    /*box-shadow: 2px 2px 2px 2px royalblue;*/
+}
+.card2:hover{
+    transform: translateY(-10px);
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.5),0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.card1{
+     background-color: white;
+    background-size: cover;
+     color: royalblue;
+}
+
+.card2{
+     background-color: white;
+    background-position: center;
+    background-size: cover;
+     color: royalblue;
+}
+.card3{
+     background-color: white;
+    background-position: center;
+    background-size: cover;
+    color: royalblue;
+
+}
+.card4{
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    color: royalblue;
+}
+
+.card5{
+   background-color: white;
+    background-position: center;
+    background-size: cover;
+    color: royalblue;
+}
+
+.card6{
+   background-color: white;
+    background-position: center;
+    background-size: cover;
+    color: royalblue;
+}
+
+.card9{
+  background-color: white;
+    background-position: center;
+    background-size: cover;
+     color: royalblue;
+}
+.lab1{
+    margin-top: 120px;
+    margin-left: 150px;
+    font-size: 20px;
+    margin-bottom: 0px;
+ }
+ .lab1 h1{
+    font-size:35px;
+    margin-top: 50px;
+ }
+ .lab1 p{
+    font-size: 12px;
+ }
+ .lab2{
+    align-content: center;
+    margin-top: 10px;
+    margin-left: 150px;
+    color: royalblue;
+    font-size: 12px;
+ }
+
+
+#section3{
+    margin-top: 300px;
+    height: 400px;
+    display: inline-block;
+    width: 100%;
+    color: white;
+
+}
+.pri img{
+    height: 100px;
+    width: 100px;
+  size: 25px;
+  margin-left: 520px;
+  margin-top: 100px;
+}
+
+
+.col1{
+    margin-top: 10px;
+    float: left;
+    margin-left: 100x;
+}
+.col1 .card{
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 50px -50px 50px;
+    align-content: center;
+    float: right;
+    transition: transform 0.5s;
+    font-size: 10px;
+    margin-left: 100px;
+    padding-left: 10px;
+}
+.card6{
+background: linear-gradient(rgba(46, 204, 113,1.0),rgba(46, 204, 113,1.0));
+color: white;
+margin-left: -50px;
+}
+.card7{
+    background: linear-gradient(rgba(241, 196, 15,1.0),rgba(241, 196, 15,1.0));
+    color: white;
+    margin-left: -50px;
+    margin-top: -20px;
+}
+
+
+
+#section3 h1{
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: -50px;
+} 
+
+.sliders{
+
+    padding-top: 30px;
+}
+
+.slide-container .prev,
+.slide-container .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  transition: 0.5s;
+}
+
+.slide-container .prev:hover,
+.slide-container .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.slide-container .prev {
+  left: 2px;
+}
+
+.slide-container .next {
+  right: 2px;
+}
+
+.dots-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.dots-container .dot {
+  cursor: pointer;
+  margin: 5px;
+  width: 15px;
+  height: 15px;
+  color: #333;
+  border-radius: 50%;
+  background-color: #dfd6ce;
+}
+
+.dots-container .dot.active {
+  border: 2px solid green;
+}
+ 
+
+.slide-container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+  border: 2px solid white;
+}
+
+.slide-container .slide {
+  display: none;
+  width: 100%;
+}
+
+.slide-container .slide.fade {
+  animation: fade 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+.slide-container .slide img {
+  width: 100%;
+}
+
+
+
+
+.slider p{
+    padding-right: 450px;
+}
+.bottom p{
+    font-size: 10px;
+   float: right;
+   padding-bottom: -50px;
+   margin-right: 5px;
+}
